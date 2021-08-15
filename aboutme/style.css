@@ -1,0 +1,101 @@
+body{
+    background-image: 
+      linear-gradient(to right,#f51621 0%, #700007 20%),
+      linear-gradient(to right,#f51621 0%, #700007 20%)
+    ;
+    background-size: 10000px 0.6%;
+    background-repeat:no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #1C1C1C;
+  }
+
+.box {
+    background-image: 
+      linear-gradient(to right,#f51621 0%, #700007 20%),
+      linear-gradient(to right,#f51621 0%, #700007 20%)
+    ;
+    background-size: 10000px 0.6%;
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 15px;
+    padding: 150px;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    background-color: #161616;
+}
+
+.box h1 {
+    position: static;
+    color: rgb(255, 255, 255);
+    top: 20%;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+.xdlol {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+    --tw-gradient-from: #f51621;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to, rgba(248, 113, 113, 0));
+    --tw-gradient-to: #700007;
+    color: transparent;
+}
+.box small {
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
+  }
+
+.box p {
+    margin-top: .5rem;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
+  }
+
+.box .pic {
+    display: inline-block;
+    padding: 2px;
+    background: linear-gradient(to right,#f51621 0%, #700007 20%);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.box .pic img{ 
+    border-radius: 20px;
+}
+
+.box .sm #button {
+  color: #E31C25;
+  font-size: 20px;
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
+  background: none;
+  margin: 10px auto;
+  border: 2px solid #BB000E;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  border-radius: 14px;
+  transition: 0.25s;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sm {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box .sm #button:hover {
+  color: #e66767;
+  border: 2px solid #e66767;
+}
